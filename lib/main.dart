@@ -73,7 +73,6 @@ class _StoryPageState extends State<StoryPage> {
               Expanded(
                 flex: 2,
 
-
                 child: Visibility(
                   visible: storyBrain.buttonShouldBeVisible(),
                   child: FlatButton(
